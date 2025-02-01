@@ -1,0 +1,19 @@
+Edge TPU Compiler version 16.0.384591198
+Input: nasnet_edge_cifar10.tflite
+Output: nasnet_edge_cifar10_edgetpu.tflite
+
+Operator                       Count      Status
+
+DEPTHWISE_CONV_2D              160        Operation is working on an unsupported data type
+CONV_2D                        196        Operation is working on an unsupported data type
+SOFTMAX                        1          Operation is working on an unsupported data type
+CONCATENATION                  20         Operation is working on an unsupported data type
+RELU                           48         Operation is working on an unsupported data type
+AVERAGE_POOL_2D                40         Operation is working on an unsupported data type
+STRIDED_SLICE                  4          Operation is working on an unsupported data type
+MUL                            4          Operation is working on an unsupported data type
+MEAN                           1          Operation is working on an unsupported data type
+ADD                            84         Operation is working on an unsupported data type
+MAX_POOL_2D                    4          Operation is working on an unsupported data type
+PAD                            20         Operation is working on an unsupported data type
+FULLY_CONNECTED                2          Operation is working on an unsupported data type

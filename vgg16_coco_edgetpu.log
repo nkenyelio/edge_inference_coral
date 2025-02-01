@@ -1,0 +1,11 @@
+Edge TPU Compiler version 16.0.384591198
+Input: vgg16_coco.tflite
+Output: vgg16_coco_edgetpu.tflite
+
+Operator                       Count      Status
+
+MAX_POOL_2D                    5          Operation is working on an unsupported data type
+MEAN                           1          Operation is working on an unsupported data type
+CONV_2D                        13         Operation is working on an unsupported data type
+SOFTMAX                        1          Operation is working on an unsupported data type
+FULLY_CONNECTED                2          Operation is working on an unsupported data type
